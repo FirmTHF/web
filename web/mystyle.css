@@ -1,0 +1,43 @@
+div.mycontainer {
+    width:100%;
+    overflow:auto;
+    text-align: center;
+  }
+  div.mycontainer div {
+    width:33%;  
+    float:left;
+  }
+
+
+
+
+.div-bg1{
+    background-color: rgb(255, 102, 0);
+}
+.div-bg2{
+    background-color: rgb(255, 0, 0);
+}
+.div-bg3{
+    background-color: rgb(4, 0, 255);
+}
+
+h1 {
+    color: salmon;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+h2 {
+    color: yellow;
+}
+
+.textgreen{
+    color: green;
+}
+.textblue{
+    color:  blue;
+
+#textping{
+        color:pink;
+}
