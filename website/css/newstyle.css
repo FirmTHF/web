@@ -1,0 +1,42 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    border: 2px solid red;
+    padding: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+aside{
+    border: 2px solid green;
+    display: grid;
+    text-align: left;
+    flex: 10%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    
+}
+
+article{
+    border: 2px solid blue;
+    flex: 50%;
+    background-color: white;
+    padding: 100px;
+    text-align: center;
+    
+}
+
+
+footer{
+    border: 2px solid yellow;
+    flex: 30%; 
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+

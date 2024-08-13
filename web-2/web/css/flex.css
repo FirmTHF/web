@@ -1,0 +1,66 @@
+.apple{
+    order: 5;
+}
+
+.melon{
+    order: 3;
+}
+
+.container{
+    display: flex;
+    width: auto;
+    height: 400px;
+    border: 2px solid black;
+    /*flex-direction:columm-revers*/
+}
+
+.items{
+    width: auto;
+    height: 60px;
+    background-color: red;
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    text-align: center;
+}
+.flex-item-left{
+    background-color: #ec5a16;
+    padding: 10px;
+    flex: 50%;
+}
+.flex-item-right{
+    background-color: #5d31fdf8;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-underleft{
+    background-color: aqua;
+    padding: 10px;
+    flex:  50%;
+    
+}
+.flex-item-underright{
+    background-color: rgb(72, 255, 0);
+    padding: 10px;
+    flex:  50%;
+    
+}
+/* responsive layout*/
+
+@media (max-width:500px) {
+    .flex-container{
+        flex-direction: column;
+    }
+}
